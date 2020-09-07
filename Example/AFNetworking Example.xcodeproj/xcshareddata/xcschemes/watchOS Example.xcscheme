@@ -69,15 +69,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "291BFDB81BB9E85400FFB029"
-            BuildableName = "watchOS Example.app"
-            BlueprintName = "watchOS Example"
-            ReferencedContainer = "container:AFNetworking Example.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -96,7 +87,7 @@
       allowLocationSimulation = "YES">
       <RemoteRunnable
          runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.carousel"
+         BundleIdentifier = "com.apple.Carousel"
          RemotePath = "/iOS Example">
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -122,7 +113,7 @@
       debugDocumentVersioning = "YES">
       <RemoteRunnable
          runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.carousel"
+         BundleIdentifier = "com.apple.Carousel"
          RemotePath = "/iOS Example">
          <BuildableReference
             BuildableIdentifier = "primary"
