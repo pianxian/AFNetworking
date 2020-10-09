@@ -491,7 +491,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     self.sessionConfiguration = configuration;
 
     self.operationQueue = [[NSOperationQueue alloc] init];
-    self.operationQueue.maxConcurrentOperationCount = 1;
+    self.operationQueue.maxConcurrentOperationCount = 4;
 
     self.responseSerializer = [AFJSONResponseSerializer serializer];
 
