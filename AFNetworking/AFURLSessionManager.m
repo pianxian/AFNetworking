@@ -486,6 +486,8 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
 
     if (!configuration) {
         configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        configuration.connectionProxyDictionary = @{};
+
     }
 
     self.sessionConfiguration = configuration;
